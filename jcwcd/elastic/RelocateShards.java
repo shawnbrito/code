@@ -39,7 +39,7 @@ public class RelocateShards
 					String splitArray[] = inputLine.split("\\s+");
 					System.out.println(splitArray[0] + "- " + splitArray[1]+ " - "+ splitArray[2]);
 					if(splitArray[2].equals("p"))
-							{reassignShards (urlFixShards, splitArray[1], splitArray[0], nodeName);}
+						{reassignShards (urlFixShards, splitArray[1], splitArray[0], nodeName);}
 				}
 			}
 
